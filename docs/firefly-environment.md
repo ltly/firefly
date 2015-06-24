@@ -20,10 +20,10 @@ In this example, we set it up 4 GB.  We also recommend setting the PermSize to 2
 
 #### Setup Tomcat Manager Application Access
 Tomcat comes with a Manager webapp.  However, you need to setup user with access to use it.
-Add this line to `$CATALINA_BASE/conf/tomcat-users.xml`.  Of course 'admin' and 'secret' are only an example.
+Add this line to `$CATALINA_BASE/conf/tomcat-users.xml`.  Of course 'admin' and 'your-password' are only an example.
 You need to restart Tomcat for it to take effect.
 
-    <user username="admin" password="secret" roles="manager-gui,manager-status"" />
+    <user username="admin" password="your-password" roles="manager-gui,manager-status"" />
 
 
 ### Firefly Configuration
